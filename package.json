@@ -1,0 +1,50 @@
+{
+  "name": "wdio-starter-kit",
+  "version": "0.0.1",
+  "description": "Boilerplate repo for quick set up of WebdriverIO test scripts with TravisCI, Sauce Labs and Visual Regression Testing",
+  "main": "index.js",
+  "scripts": {
+    "clean": "shx rm -rf ./allure-results ./errorShots",
+    "lint": "eslint .",
+    "report": "allure generate --clean && allure open",
+    "report:generate": "allure generate",
+    "report:open": "allure open",
+    "pretest": "npm run clean",
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klamping/wdio-starter-kit.git"
+  },
+  "keywords": [
+    "WebdriverIO"
+  ],
+  "author": "Kevin Lamping",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klamping/wdio-starter-kit/issues"
+  },
+  "homepage": "https://github.com/klamping/wdio-starter-kit#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^0.4.3",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-chai-expect": "^2.0.1",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "node-notifier": "^5.4.0",
+    "shx": "^0.3.2",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-sauce-service": "^0.4.14",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriverio": "^4.13.0"
+  },
+  "dependencies": {}
+}
