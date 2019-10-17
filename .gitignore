@@ -62,3 +62,6 @@ typings/
 errorShots/
 screenshots/latest/
 screenshots/diff/
+
+# allure
+allure-results/

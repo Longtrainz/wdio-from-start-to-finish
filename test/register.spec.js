@@ -8,7 +8,7 @@ describe('Registration Page', function () {
   const validPass = 'asdasd';
 
   beforeEach(function () {
-    browser.url('./REPLACEME');
+    browser.url('./register.html');
   });
 
   it('should look nice', function () {

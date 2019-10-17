@@ -1,5 +1,4 @@
 class Register {
-  // Replace these selectors
   get email () { return $('input[name="email"]'); }
   get password () { return $('input[name="password"]'); }
   get confirmPassword () { return $('input[name="confirmPassword"]'); }
@@ -17,8 +16,7 @@ class Register {
   }
 
   isRegistered () {
-    // Replace this with an Boolean response that identifies if you've successfully registered
-    // example: return browser.getUrl().includes('REPLACEME');
+    return browser.getUrl().includes('thank-you.html');
   }
 }
 
