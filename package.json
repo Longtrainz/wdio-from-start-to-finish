@@ -36,7 +36,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "node-notifier": "^5.4.0",
+    "node-notifier": "^8.0.1",
     "shx": "^0.3.2",
     "wdio-allure-reporter": "^0.8.3",
     "wdio-mocha-framework": "^0.6.4",
